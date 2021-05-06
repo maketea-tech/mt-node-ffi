@@ -1,11 +1,12 @@
 {
-  "name": "ffi",
-  "version": "2.3.0",
+  "name": "mt-node-ffi",
+  "version": "2.4.0",
   "license": "MIT",
   "author": "Rick Branson",
   "contributors": [
     "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
-    "Gabor Mezo <gabor.mezo@outlook.com> (https://github.com/unbornchikken)"
+    "Gabor Mezo <gabor.mezo@outlook.com> (https://github.com/unbornchikken)",
+    "Seven <fengzilijie@qq.com> (https://github.com/fallending)"
   ],
   "description": "A foreign function interface (FFI) for Node.js",
   "keywords": [
@@ -17,31 +18,28 @@
     "binding",
     "c"
   ],
-  "homepage": "http://github.com/node-ffi/node-ffi",
+  "homepage": "https://github.com/maketea-tech/mt-node-ffi",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=12.0.0"
   },
   "main": "./lib/ffi",
   "dependencies": {
     "bindings": "~1.2.0",
     "debug": "2",
+    "mt-node-ref": "https://github.com/maketea-tech/mt-node-ref.git",
     "nan": "^2.12.0",
-    "ref": "1",
-    "ref-struct": "1"
+    "mt-node-ref-struct": "https://github.com/maketea-tech/mt-node-ref-struct.git"
   },
   "devDependencies": {
     "fs-extra": "^0.23.1",
     "mocha": "*",
-    "ref-array": "1"
+    "mt-node-ref-array": "https://github.com/maketea-tech/mt-node-ref-array.git"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/node-ffi/node-ffi.git"
-  },
-  "bugs": {
-    "url": "http://github.com/node-ffi/node-ffi/issues"
+    "url": "https://github.com/maketea-tech/mt-node-ffi.git"
   }
 }

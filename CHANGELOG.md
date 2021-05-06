@@ -127,7 +127,7 @@
 1.2.0 / 2012-10-13
 ==================
 
-  * type: full support for "ref-array" arguments and return types
+  * type: full support for "mt-node-ref-array" arguments and return types
   * type: add basic support for basic ref types without a `ffi_type` prop set
   * don't call the "ref()" function on passed in arguments
   * libffi: fix unused variable warnings
