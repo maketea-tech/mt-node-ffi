@@ -21,7 +21,7 @@ Example
 -------
 
 ``` js
-var ffi = require('ffi');
+var ffi = require('mt-node-ffi');
 
 var libm = ffi.Library('libm', {
   'ceil': [ 'double', [ 'double' ] ]

@@ -13,7 +13,7 @@
     "foreign",
     "function",
     "interface",
-    "ffi",
+    "mt-node-ffi",
     "libffi",
     "binding",
     "c"
